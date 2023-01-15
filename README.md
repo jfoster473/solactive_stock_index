@@ -1,14 +1,8 @@
 # Assessment Index Modelling
 
-# Index Notes
+# Index overview
 
-- The index is a stock index made up of imaginary stocks. 
-- There are no further corporate actions to consider here 
-- The index doesn't resemble any real existing index.
-- The model should be able to calculate the index levels based on the rules below.
-- All provided prices are total return. 
-- All companies got the same amount of shares outstanding.
-
+This code produces a total return index of 3 stocks, based on the relative size of the companies. The data source for the prices is stock_prices.csv and the calculations are in index.py.
 
 # Index Rules
 
@@ -23,3 +17,11 @@
 - The index start date is January 1st 2020.
 - The index business days are Monday to Friday.
 - There are no additional holidays.
+
+# Additional information
+
+- The index is a stock index made up of imaginary stocks. 
+- There are no further corporate actions. 
+- The index doesn't resemble any real existing index.
+- All provided prices are total return. 
+- All companies have the same amount of shares outstanding.
